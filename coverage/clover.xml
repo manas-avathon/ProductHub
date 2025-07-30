@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1753861149278" clover="3.2.0">
+  <project timestamp="1753861149279" name="All files">
+    <metrics statements="45" coveredstatements="19" conditionals="10" coveredconditionals="1" methods="14" coveredmethods="3" elements="69" coveredelements="23" complexity="0" loc="45" ncloc="45" packages="2" files="3" classes="3"/>
+    <package name="components">
+      <metrics statements="41" coveredstatements="15" conditionals="10" coveredconditionals="1" methods="13" coveredmethods="2"/>
+      <file name="ProductCard.tsx" path="C:\Users\Manas Singh\Desktop\ProductHub\src\components\ProductCard.tsx">
+        <metrics statements="15" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+      </file>
+      <file name="WishlistContext.tsx" path="C:\Users\Manas Singh\Desktop\ProductHub\src\components\WishlistContext.tsx">
+        <metrics statements="26" coveredstatements="5" conditionals="6" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="priceUtils.ts" path="C:\Users\Manas Singh\Desktop\ProductHub\src\utils\priceUtils.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
