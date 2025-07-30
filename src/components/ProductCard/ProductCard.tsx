@@ -1,9 +1,9 @@
 import React from "react";
-import type { Product } from "../type";
-import discountedPrice from "../utils/priceUtils";
-import notInWishlist from "../assets/heart.png";
-import inWishlist from "../assets/red heart.png";
-import { useWishlist } from "./WishlistContext";
+import type { Product } from "../../type";
+import discountedPrice from "../../utils/priceUtils";
+import notInWishlist from "../../assets/heart.png";
+import inWishlist from "../../assets/red heart.png";
+import { useWishlist } from "../WishlistContext";
 
 interface ProductCardProps {
 	product: Product;
