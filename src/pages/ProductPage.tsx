@@ -6,7 +6,7 @@ import ProductCard from "../components/ProductCard/ProductCard";
 import { Link } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
 import type { Product } from "../type";
-import SearchBar from "../components/SearchBar";
+import SearchBar from "../components/SearchBar/SearchBar";
 import { useState } from "react";
 import { useDebounce } from "../hooks/useDebounce";
 // import { useFetch } from "../hooks/useFetch";
