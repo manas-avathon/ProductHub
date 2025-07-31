@@ -9,7 +9,7 @@ import "./App.css";
 import Products from "./pages/Products";
 import Wishlist from "./pages/Wishlist";
 import { useWishlist, WishlistProvider } from "./components/WishlistContext";
-import ProductDetail from "./components/ProductDetail";
+import ProductDetail from "./components/ProductDetail/ProductDetail";
 
 function AppLayout() {
 

@@ -1,11 +1,12 @@
 import type React from "react";
 import { Link, useParams } from "react-router-dom";
-import type { Product } from "../type";
+import type { Product } from "../../type";
 import staricon from "/Users/Manas Singh/Desktop/ProductHub/src/assets/star.png";
-import discountedPrice from "../utils/priceUtils";
-import { useFetch } from "../hooks/useFetch";
-import InterestForm from "./InterestForm";
-import { useWishlist } from "./WishlistContext";
+import discountedPrice from "../../utils/priceUtils";
+import { useWishlist } from "../WishlistContext";
+import InterestForm from "../InterestForm/InterestForm";
+import { useFetch } from "../../hooks/useFetch";
+
 
 type IdParams = {
 	id: string;

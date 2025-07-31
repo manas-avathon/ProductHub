@@ -9,6 +9,11 @@ const formSchema = z.object({
     prefferedTime : z.string().optional(),
 })
 
+// eslint-disable-next-line react-refresh/only-export-components
+export function logData(data: unknown): void {
+  console.log(data);
+}
+
 type Inputs = z.infer<typeof formSchema>;
 
 const InterestForm : React.FC = () => {
@@ -23,8 +28,7 @@ const InterestForm : React.FC = () => {
     });
 
     const onSubmit : SubmitHandler<Inputs> = (data) => { 
-            console.log(data);
-            alert('Form Submitted Successfully');
+            logData(data);
             reset({
                 name : "",
                 email: "",
@@ -35,7 +39,7 @@ const InterestForm : React.FC = () => {
     return(
         <form onSubmit={handleSubmit(onSubmit)} className="pt-2 pl-8 pr-8">
             <div>
-                <label className="font-semibold">Name* : </label>
+                <label className="font-semibold" >Name* : </label>
                 <br/>
                 <input {...register("name",{required: true, minLength:3, maxLength:20})} className="border border-black rounded-md mt-2 pl-2 w-full"/>
                 {errors.name && <p className="text-red-500 text-sm">*{errors.name.message}*</p>}
